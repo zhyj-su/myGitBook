@@ -1,0 +1,13 @@
+{
+	"plugins": ["toggle-chapters","-search","-sharing","search-pro","toc"],
+	"pluginsConfig": {
+    "search-pro": {
+        "cutWordLib": "nodejieba",
+        "defineWord" : ["Gitbook Use"]
+    },
+	 "toc": {
+            "addClass": true,
+            "className": "toc"
+        }
+	}
+}
